@@ -1,0 +1,390 @@
+* {
+  margin: 0px;
+  color: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.5px solid grey;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 65px;
+  background-color: #352f44;
+  color: white;
+}
+
+.headerlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 25%;
+  margin-left: 20px;
+}
+
+.logo {
+  background-image: url("logo9.svg");
+  background-size: cover;
+  height: 50px;
+  width: 170px;
+}
+
+.main {
+  font-size: 1.4rem;
+  margin-left: 170px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.main a
+{
+  text-decoration: none;
+}
+.main :hover {
+  color: gray;
+}
+
+.intro {
+  height: 500px;
+  background-color: #352f44;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  display: inline;
+  justify-self: right;
+  align-items: center;
+  height: 100px;
+  width: 60%;
+}
+
+#firsthead {
+  color: #faf0e6;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+#secondhead {
+  color: #b9b4c7;
+  font-size: 2rem;
+}
+#resume {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 200px;
+  height: 40px;
+  color: #b9b4c7;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-color: #5c5470;
+}
+#resume:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.imageside {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.pic {
+  height: 350px;
+  width: 350px;
+  background-image: url("me2.jpeg");
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #352f44;
+}
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.imagebox {
+  background-image: url("me.jpeg");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.aboutmecontent {
+  width: 40%;
+  text-align: center;
+}
+
+.aboutmecontent h1 {
+  font-size: 2.5rem;
+}
+
+.aboutmecontent h4 {
+  margin-left: 10px;
+  color: #b9b4c7;
+  font-size: 1.1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.facebook-icon {
+  background-image: url("facebook1.png");
+  background-size: cover;
+}
+
+.instagram-icon {
+  background-image: url("Instagram1.png");
+  background-size: cover;
+}
+
+.linkedin-icon {
+  background-image: url("linkedin-icon-1024x1024-net2o24e.png");
+  background-size: cover;
+}
+
+.servicespart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: #352f44;
+  text-align: center;
+}
+
+.headingmain {
+  padding-top: 40px;
+  text-align: center;
+  background-color: #352f44;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.boxpart {
+  height: 400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: #5c5470;
+  border-radius: 25px;
+}
+
+.box:hover {
+  border: 2px solid #b9b4c7;
+  .boxcontent i {
+    color: white;
+  }
+  .boxcontent h1 {
+    color: #352f44;
+  }
+}
+
+.boxcontent {
+  height: 100%;
+  padding: 5px 1.2rem 0 1.2rem;
+}
+
+.boxcontent i {
+  color: #352f44;
+  margin-top: 40px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.boxcontent h1 {
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+.boxcontent h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin-top: 8px;
+  color: #b9b4c7;
+}
+
+.projectspart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #352f44;
+  text-align: center;
+}
+
+.pixbox {
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+.bx h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.bxc {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonpart {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 50px;
+  background-color: #352f44;
+}
+
+.projectbutton {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 200px;
+  height: 40px;
+  color: #b9b4c7;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-color: #5c5470;
+}
+
+.projectbutton:hover {
+  background-color: transparent;
+  border: 2px solid #faf0e6;
+  color: #faf0e6;
+}
+
+.contactpart {
+  height: 600px;
+  background-color: #352f44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstpart {
+  height: 90%;
+  width: 80%;
+  background-color: #5c5470;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftpart {
+  height: 90%;
+  width: 50%;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.leftpart h4
+{
+  
+color: #faf0e6;
+}
+.imagepart {
+ margin: auto;
+  height: 300px;
+  width: 300px;
+  background-image: url("notme.png");
+  background-size: cover;
+  background-color: #352f44;
+
+}
+
+.githubicon
+{
+    background-image: url("github.png");
+    background-size: cover;
+}
+.rightpart
+{
+  width: 50%;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rightpart input
+{
+  background-color: #b9b4c7;
+  border-style: none;
+  text-align: center;
+  height: 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+#textbox
+{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  background-color: #b9b4c7;
+  border-radius: 12px;
+  
+}
+
+.rightpart button
+{
+  font-size: 1rem;
+  font-weight: 500;
+  width: 200px;
+  height: 40px;
+  color: #b9b4c7;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-color:#352f44;
+}
+
+.rightpart button:hover
+{
+  background-color: transparent;
+  border: 2px solid #faf0e6;
+  color: #faf0e6;
+}
